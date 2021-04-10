@@ -15,6 +15,25 @@
 		472912FC26222EFF00F0D545 /* Starter_SwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 472912FA26222EFF00F0D545 /* Starter_SwiftUI.xcdatamodeld */; };
 		4729130726222F0000F0D545 /* Starter_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4729130626222F0000F0D545 /* Starter_SwiftUITests.swift */; };
 		4729131226222F0000F0D545 /* Starter_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4729131126222F0000F0D545 /* Starter_SwiftUIUITests.swift */; };
+		47291337262230EA00F0D545 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47291336262230EA00F0D545 /* UserDefaultManager.swift */; };
+		4729133E2622316E00F0D545 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4729133D2622316E00F0D545 /* AppFont.swift */; };
+		47291349262231C600F0D545 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47291345262231C600F0D545 /* SettingsManager.swift */; };
+		4729134A262231C600F0D545 /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47291346262231C600F0D545 /* InstructionsView.swift */; };
+		4729134B262231C600F0D545 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47291347262231C600F0D545 /* SettingsView.swift */; };
+		4729134C262231C600F0D545 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47291348262231C600F0D545 /* SettingCell.swift */; };
+		472913562622320D00F0D545 /* EULAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472913522622320C00F0D545 /* EULAView.swift */; };
+		472913572622320D00F0D545 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472913532622320C00F0D545 /* WelcomeView.swift */; };
+		472913582622320D00F0D545 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472913542622320C00F0D545 /* OnboardingView.swift */; };
+		472913682622325800F0D545 /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472913672622325800F0D545 /* AlertPresenter.swift */; };
+		4729136E2622327B00F0D545 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4729136D2622327B00F0D545 /* Extensions.swift */; };
+		472913A426223B7000F0D545 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472913A326223B7000F0D545 /* Launch Screen.storyboard */; };
+		472913B6262240E300F0D545 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472913B5262240E300F0D545 /* SoundManager.swift */; };
+		472913DB2622437700F0D545 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472913D82622437700F0D545 /* ImagePicker.swift */; };
+		472913DC2622437700F0D545 /* MailComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472913D92622437700F0D545 /* MailComposeView.swift */; };
+		472913DD2622437700F0D545 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472913DA2622437700F0D545 /* ActivityView.swift */; };
+		472913E82622450D00F0D545 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472913E72622450D00F0D545 /* AppInfo.swift */; };
+		472913F3262246D100F0D545 /* AppTintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472913F2262246D100F0D545 /* AppTintColor.swift */; };
+		472913F826224ED900F0D545 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472913F726224ED900F0D545 /* ViewModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +68,25 @@
 		4729130D26222F0000F0D545 /* Starter SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Starter SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4729131126222F0000F0D545 /* Starter_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starter_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		4729131326222F0000F0D545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47291336262230EA00F0D545 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		4729133D2622316E00F0D545 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		47291345262231C600F0D545 /* SettingsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		47291346262231C600F0D545 /* InstructionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
+		47291347262231C600F0D545 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		47291348262231C600F0D545 /* SettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		472913522622320C00F0D545 /* EULAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EULAView.swift; sourceTree = "<group>"; };
+		472913532622320C00F0D545 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		472913542622320C00F0D545 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		472913672622325800F0D545 /* AlertPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
+		4729136D2622327B00F0D545 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		472913A326223B7000F0D545 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		472913B5262240E300F0D545 /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		472913D82622437700F0D545 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		472913D92622437700F0D545 /* MailComposeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailComposeView.swift; sourceTree = "<group>"; };
+		472913DA2622437700F0D545 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		472913E72622450D00F0D545 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		472913F2262246D100F0D545 /* AppTintColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTintColor.swift; sourceTree = "<group>"; };
+		472913F726224ED900F0D545 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +137,14 @@
 		472912EE26222EFF00F0D545 /* Starter SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				472912EF26222EFF00F0D545 /* Starter_SwiftUIApp.swift */,
-				472912F126222EFF00F0D545 /* ContentView.swift */,
-				472912F326222EFF00F0D545 /* Assets.xcassets */,
-				472912F826222EFF00F0D545 /* Persistence.swift */,
+				47291375262232DF00F0D545 /* Controllers */,
+				472913D42622435900F0D545 /* Pickers */,
+				47291335262230D500F0D545 /* Classes */,
+				4729133C2622316100F0D545 /* Models */,
+				472913282622303B00F0D545 /* Database */,
+				4729136C2622326E00F0D545 /* Helpers */,
+				47291379262232F000F0D545 /* Root */,
 				472912FD26222EFF00F0D545 /* Info.plist */,
-				472912FA26222EFF00F0D545 /* Starter_SwiftUI.xcdatamodeld */,
 				472912F526222EFF00F0D545 /* Preview Content */,
 			);
 			path = "Starter SwiftUI";
@@ -134,6 +174,103 @@
 				4729131326222F0000F0D545 /* Info.plist */,
 			);
 			path = "Starter SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		472913282622303B00F0D545 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				472912F826222EFF00F0D545 /* Persistence.swift */,
+				472912FA26222EFF00F0D545 /* Starter_SwiftUI.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		4729132F262230BE00F0D545 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				47291347262231C600F0D545 /* SettingsView.swift */,
+				47291345262231C600F0D545 /* SettingsManager.swift */,
+				4729139926223A0E00F0D545 /* OtherViews */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		47291335262230D500F0D545 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				472913B5262240E300F0D545 /* SoundManager.swift */,
+				472913672622325800F0D545 /* AlertPresenter.swift */,
+				47291336262230EA00F0D545 /* UserDefaultManager.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4729133C2622316100F0D545 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4729133D2622316E00F0D545 /* AppFont.swift */,
+				472913E72622450D00F0D545 /* AppInfo.swift */,
+				472913F2262246D100F0D545 /* AppTintColor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4729136C2622326E00F0D545 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4729136D2622327B00F0D545 /* Extensions.swift */,
+				472913F726224ED900F0D545 /* ViewModifiers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		47291375262232DF00F0D545 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				472913B126223BF700F0D545 /* ContentView */,
+				4729132F262230BE00F0D545 /* Settings */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		47291379262232F000F0D545 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				472912EF26222EFF00F0D545 /* Starter_SwiftUIApp.swift */,
+				472912F326222EFF00F0D545 /* Assets.xcassets */,
+				472913A326223B7000F0D545 /* Launch Screen.storyboard */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		4729139926223A0E00F0D545 /* OtherViews */ = {
+			isa = PBXGroup;
+			children = (
+				472913532622320C00F0D545 /* WelcomeView.swift */,
+				472913522622320C00F0D545 /* EULAView.swift */,
+				472913542622320C00F0D545 /* OnboardingView.swift */,
+				47291348262231C600F0D545 /* SettingCell.swift */,
+				47291346262231C600F0D545 /* InstructionsView.swift */,
+			);
+			path = OtherViews;
+			sourceTree = "<group>";
+		};
+		472913B126223BF700F0D545 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				472912F126222EFF00F0D545 /* ContentView.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		472913D42622435900F0D545 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				472913DA2622437700F0D545 /* ActivityView.swift */,
+				472913D82622437700F0D545 /* ImagePicker.swift */,
+				472913D92622437700F0D545 /* MailComposeView.swift */,
+			);
+			path = Pickers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				472913A426223B7000F0D545 /* Launch Screen.storyboard in Resources */,
 				472912F726222EFF00F0D545 /* Preview Assets.xcassets in Resources */,
 				472912F426222EFF00F0D545 /* Assets.xcassets in Resources */,
 			);
@@ -265,10 +403,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4729136E2622327B00F0D545 /* Extensions.swift in Sources */,
+				47291337262230EA00F0D545 /* UserDefaultManager.swift in Sources */,
+				4729134A262231C600F0D545 /* InstructionsView.swift in Sources */,
+				472913DB2622437700F0D545 /* ImagePicker.swift in Sources */,
+				472913562622320D00F0D545 /* EULAView.swift in Sources */,
 				472912F926222EFF00F0D545 /* Persistence.swift in Sources */,
+				4729134B262231C600F0D545 /* SettingsView.swift in Sources */,
+				472913F3262246D100F0D545 /* AppTintColor.swift in Sources */,
+				4729133E2622316E00F0D545 /* AppFont.swift in Sources */,
+				472913F826224ED900F0D545 /* ViewModifiers.swift in Sources */,
+				472913572622320D00F0D545 /* WelcomeView.swift in Sources */,
+				47291349262231C600F0D545 /* SettingsManager.swift in Sources */,
+				472913682622325800F0D545 /* AlertPresenter.swift in Sources */,
 				472912F226222EFF00F0D545 /* ContentView.swift in Sources */,
+				472913DD2622437700F0D545 /* ActivityView.swift in Sources */,
+				472913E82622450D00F0D545 /* AppInfo.swift in Sources */,
+				472913DC2622437700F0D545 /* MailComposeView.swift in Sources */,
 				472912F026222EFF00F0D545 /* Starter_SwiftUIApp.swift in Sources */,
+				4729134C262231C600F0D545 /* SettingCell.swift in Sources */,
 				472912FC26222EFF00F0D545 /* Starter_SwiftUI.xcdatamodeld in Sources */,
+				472913B6262240E300F0D545 /* SoundManager.swift in Sources */,
+				472913582622320D00F0D545 /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +586,7 @@
 				DEVELOPMENT_TEAM = HJ9L53D9PB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Starter SwiftUI/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +608,7 @@
 				DEVELOPMENT_TEAM = HJ9L53D9PB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Starter SwiftUI/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
