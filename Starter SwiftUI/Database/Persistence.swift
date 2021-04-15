@@ -1,6 +1,6 @@
 //
 //  Persistence.swift
-//  Starter SwiftUI
+//  BmScanner
 //
 //  Created by Aung Ko Min on 11/4/21.
 //
@@ -8,11 +8,13 @@
 import CoreData
 
 struct PersistenceController {
+    
     static let shared = PersistenceController()
+
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "Starter_SwiftUI")
+        container = NSPersistentContainer(name: "BmScanner")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }

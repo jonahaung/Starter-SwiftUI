@@ -17,12 +17,6 @@ struct ContentView: View {
                 } label: {
                     Text("Square Button").modifier(SquareButton())
                 }
-                Button {
-                    
-                } label: {
-                    Text("Yes").modifier(RoundedButton())
-                }
-                
                 Text("Hello World! This is some texts and detail texts for testing")
             }
             
