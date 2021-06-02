@@ -7,15 +7,11 @@
 
 import SwiftUI
 
-enum AppFont: Int, CaseIterable, Identifiable {
+enum AppFontDesign: Int, CaseIterable, Identifiable {
     
-    var id: AppFont { return self }
+    var id: AppFontDesign { return self }
     
-    case rounded, monoSpaced, serif
-    
-    var font: Font {
-        return .system(.body, design: design)
-    }
+    case system, rounded, monoSpaced, serif
     
     var design: Font.Design {
         switch self {
@@ -25,6 +21,8 @@ enum AppFont: Int, CaseIterable, Identifiable {
             return .monospaced
         case .serif:
             return .serif
+        case .system:
+            return .default
         }
     }
     
@@ -36,6 +34,9 @@ enum AppFont: Int, CaseIterable, Identifiable {
             return "Serif"
         case .rounded:
             return "Rounded"
+        case .system:
+            return "Default"
         }
     }
 }
+

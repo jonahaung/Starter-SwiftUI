@@ -17,19 +17,25 @@ struct SettingsView: View {
     @AppStorage(UserDefaultManager.shared._hasShownOnboarding) private var hasShownOnboarding: Bool = UserDefaultManager.shared.hasShownOnboarding
     @State private var sheetType: SheetType?
     
-    @AppStorage(UserDefaultManager.shared._appFont) private var appFontIndex: Int = UserDefaultManager.shared.appFont.rawValue
+    @AppStorage(UserDefaultManager.shared._appFontDesign) private var appFontDesignIndex: Int = UserDefaultManager.shared.appFontDesign.rawValue
+    @AppStorage(UserDefaultManager.shared._appFontSize) private var appFontSize: Double = UserDefaultManager.shared.appFontSize
     @AppStorage(UserDefaultManager.shared._appTintColor) private var appTintColorIndex: Int = UserDefaultManager.shared.appTintColor.rawValue
     
     var body: some View {
         Form {
             Section(header: Text("Device Settings").foregroundColor(Color(.tertiaryLabel))) {
                 
-                Picker(selection: $appFontIndex, label: Text("Font Design")) {
-                    ForEach(AppFont.allCases) {
+                Picker(selection: $appFontDesignIndex, label: Text("Font Design")) {
+                    ForEach(AppFontDesign.allCases) {
                         Label($0.name, systemImage: "circlebadge")
                             .tag($0.rawValue)
-                            .font($0.font)
+                            .font(.system(size: CGFloat(appFontSize), design: $0.design))
                     }
+                }
+                
+                HStack {
+                    Text("Font Size")
+                    Slider(value: $appFontSize, in: 14...30)
                 }
                 
                 Picker(selection: $appTintColorIndex, label: Text("App Color")) {

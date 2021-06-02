@@ -15,7 +15,7 @@
 		4729130726222F0000F0D545 /* Starter_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4729130626222F0000F0D545 /* Starter_SwiftUITests.swift */; };
 		4729131226222F0000F0D545 /* Starter_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4729131126222F0000F0D545 /* Starter_SwiftUIUITests.swift */; };
 		47291337262230EA00F0D545 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47291336262230EA00F0D545 /* UserDefaultManager.swift */; };
-		4729133E2622316E00F0D545 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4729133D2622316E00F0D545 /* AppFont.swift */; };
+		4729133E2622316E00F0D545 /* AppFontDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4729133D2622316E00F0D545 /* AppFontDesign.swift */; };
 		47291349262231C600F0D545 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47291345262231C600F0D545 /* SettingsManager.swift */; };
 		4729134A262231C600F0D545 /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47291346262231C600F0D545 /* InstructionsView.swift */; };
 		4729134B262231C600F0D545 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47291347262231C600F0D545 /* SettingsView.swift */; };
@@ -69,7 +69,7 @@
 		4729131126222F0000F0D545 /* Starter_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starter_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		4729131326222F0000F0D545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47291336262230EA00F0D545 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
-		4729133D2622316E00F0D545 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		4729133D2622316E00F0D545 /* AppFontDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFontDesign.swift; sourceTree = "<group>"; };
 		47291345262231C600F0D545 /* SettingsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
 		47291346262231C600F0D545 /* InstructionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
 		47291347262231C600F0D545 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -210,7 +210,7 @@
 		4729133C2622316100F0D545 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4729133D2622316E00F0D545 /* AppFont.swift */,
+				4729133D2622316E00F0D545 /* AppFontDesign.swift */,
 				472913E72622450D00F0D545 /* AppInfo.swift */,
 				472913F2262246D100F0D545 /* AppTintColor.swift */,
 			);
@@ -414,7 +414,7 @@
 				472913562622320D00F0D545 /* EULAView.swift in Sources */,
 				4729134B262231C600F0D545 /* SettingsView.swift in Sources */,
 				472913F3262246D100F0D545 /* AppTintColor.swift in Sources */,
-				4729133E2622316E00F0D545 /* AppFont.swift in Sources */,
+				4729133E2622316E00F0D545 /* AppFontDesign.swift in Sources */,
 				472913F826224ED900F0D545 /* ViewModifiers.swift in Sources */,
 				472913572622320D00F0D545 /* WelcomeView.swift in Sources */,
 				47291349262231C600F0D545 /* SettingsManager.swift in Sources */,

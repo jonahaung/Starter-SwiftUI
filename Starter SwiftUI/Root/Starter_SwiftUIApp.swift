@@ -10,7 +10,8 @@ import SwiftUI
 @main
 struct Starter_SwiftUIApp: App {
     
-    @AppStorage(UserDefaultManager.shared._appFont) private var appFont: Int = UserDefaultManager.shared.appFont.rawValue
+    @AppStorage(UserDefaultManager.shared._appFontDesign) private var appFontDesign: Int = UserDefaultManager.shared.appFontDesign.rawValue
+    @AppStorage(UserDefaultManager.shared._appFontSize) private var appFontSize: Double = UserDefaultManager.shared.appFontSize
     @AppStorage(UserDefaultManager.shared._appTintColor) private var appTintColor: Int = UserDefaultManager.shared.appTintColor.rawValue
     @AppStorage(UserDefaultManager.shared._hasShownOnboarding) private var hasShownOnboarding: Bool = UserDefaultManager.shared.hasShownOnboarding
     
@@ -28,7 +29,7 @@ struct Starter_SwiftUIApp: App {
                 }
             }
             .environment(\.managedObjectContext, persistenceController.container.viewContext)
-            .font(AppFont(rawValue: appFont)?.font)
+            .font(.system(size: CGFloat(appFontSize), design: AppFontDesign(rawValue: appFontDesign)!.design))
             .accentColor(AppTintColor(rawValue: appTintColor)?.color)
         }
         .onChange(of: scenePhase, perform: handleScenePhase(_:))

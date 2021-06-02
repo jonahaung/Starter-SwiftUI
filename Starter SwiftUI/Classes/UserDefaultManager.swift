@@ -5,7 +5,7 @@
 //  Created by Aung Ko Min on 11/4/21.
 //
 
-import Foundation
+import SwiftUI
 
 final class UserDefaultManager {
     
@@ -13,7 +13,8 @@ final class UserDefaultManager {
     private let manager = UserDefaults.standard
     
     let _hasShownOnboarding = "hasShownOnboarding"
-    let _appFont = "appFont"
+    let _appFontDesign = "appFont"
+    let _appFontSize = "_appFontSize"
     let _appTintColor = "appTintColor"
     let _doneSetup = "doneSetup"
 
@@ -27,14 +28,33 @@ final class UserDefaultManager {
         set { manager.setValue(newValue, forKey: _doneSetup) }
     }
     
-    var appFont: AppFont {
+    var appFontDesign: AppFontDesign {
         get {
-            return AppFont(rawValue: manager.integer(forKey: _appFont)) ?? .rounded
+            return AppFontDesign(rawValue: manager.integer(forKey: _appFontDesign)) ?? .rounded
         }
         set {
-            manager.setValue(newValue.rawValue, forKey: _appFont)
+            manager.setValue(newValue.rawValue, forKey: _appFontDesign)
         }
     }
+    
+    var appFontSize: Double {
+        get {
+            var size = manager.double(forKey: _appFontSize)
+            if size == 0 {
+                size = Double(UIFont.buttonFontSize)
+                manager.setValue(size, forKey: _appFontSize)
+            }
+            return size
+        }
+        set {
+            manager.setValue(newValue, forKey: _appFontSize)
+        }
+    }
+    
+    func font() -> Font {
+        return .system(size: CGFloat(appFontSize), design: appFontDesign.design)
+    }
+    
     var appTintColor: AppTintColor {
         get {
             return AppTintColor(rawValue: manager.integer(forKey: _appTintColor)) ?? .Blue
